@@ -3119,3 +3119,125 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2017-09-25 10:15:49,747 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-09-25 10:15:49,747 [Worker-773] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-09-25 10:15:49,747 [Worker-773] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:07:13,882 [Worker-933] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.xxxx.service:xxxx-dubbox:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox/pom.xml.
+2017-09-25 14:08:12,326 [Worker-932] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.xxxx.service:xxxx-dubbox:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox/pom.xml.
+2017-09-25 14:08:54,243 [Worker-935] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.xxxx.service:xxxx-dubbox:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox/pom.xml.
+2017-09-25 14:11:41,111 [Worker-936] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.yonyou.com/nexus/content/groups/public/com/xxxx/service/xxxx-dubbox/1.0/xxxx-dubbox-1.0.pom
+2017-09-25 14:11:43,015 [Worker-936] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/xxxx/service/xxxx-dubbox/1.0/xxxx-dubbox-1.0.pom
+2017-09-25 14:11:43,497 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml.
+2017-09-25 14:11:43,661 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-web-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/pom.xml.
+2017-09-25 14:11:45,227 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:45,235 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-25 14:11:45,250 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:45,251 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:11:53,128 [Worker-938] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:53,130 [Worker-938] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-25 14:11:53,132 [Worker-938] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:53,132 [Worker-938] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:11:54,180 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:54,181 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:11:54,181 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:11:54,181 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:21,963 [Worker-935] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Failed to read Maven project: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+ for project com.xxxx.service:xxxx-facade:[unknown-version] at /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+ for project com.xxxx.service:xxxx-facade:[unknown-version] at /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168) ~[maven-core-3.3.3.jar:3.3.3]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119) ~[maven-core-3.3.3.jar:3.3.3]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:191) ~[org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80) [org.eclipse.m2e.core_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259) [org.eclipse.m2e.core.ui_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729) [org.eclipse.m2e.editor_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050) [org.eclipse.m2e.editor_1.6.0.20150526-2032.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55) [org.eclipse.core.jobs_3.7.0.v20150330-2103.jar:na]
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325) ~[maven-model-builder-3.3.3.jar:3.3.3]
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161) ~[maven-core-3.3.3.jar:3.3.3]
+	... 15 common frames omitted
+2017-09-25 14:12:32,620 [Worker-937] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-facade:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml.
+2017-09-25 14:12:32,637 [Worker-937] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml.
+2017-09-25 14:12:32,714 [Worker-937] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-web-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/pom.xml.
+2017-09-25 14:12:33,237 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,237 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:33,237 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,238 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:33,312 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,313 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:33,313 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,314 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:33,440 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,441 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:33,441 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:33,441 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:34,748 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:34,749 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-25 14:12:34,750 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:34,750 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:50,687 [Worker-935] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml.
+2017-09-25 14:12:50,785 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:50,786 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:50,791 [Worker-935] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:50,792 [Worker-935] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:58,890 [Worker-937] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-web-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/pom.xml.
+2017-09-25 14:12:59,427 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:59,427 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:59,428 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:12:59,428 [Worker-937] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:12:59,428 [Worker-937] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of xxxx-web-service
+2017-09-25 14:12:59,430 [Worker-937] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for xxxx-web-service
+2017-09-25 14:12:59,440 [Worker-937] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:13:05,396 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-25 14:13:40,288 [Worker-931] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox
+2017-09-25 14:13:40,288 [Worker-931] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-25 14:14:24,587 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.xxxx.service:xxxx-dubbox:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox/pom.xml.
+2017-09-25 14:14:24,605 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-facade:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml.
+2017-09-25 14:14:24,617 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml.
+2017-09-25 14:14:24,698 [Worker-936] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-web-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/pom.xml.
+2017-09-25 14:14:25,030 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,030 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:14:25,030 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,031 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:14:25,126 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,127 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-25 14:14:25,129 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,129 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:14:25,414 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,415 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-25 14:14:25,416 [Worker-936] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:14:25,416 [Worker-936] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:14:28,830 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-09-25 14:14:35,056 [Worker-937] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-dubbox
+2017-09-25 14:14:35,056 [Worker-937] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-25 14:15:20,220 [Worker-932] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-facade:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml.
+2017-09-25 14:15:20,235 [Worker-932] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml.
+2017-09-25 14:15:20,305 [Worker-932] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.xxxx.service:xxxx-web-service:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/pom.xml.
+2017-09-25 14:15:20,588 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,589 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:15:20,589 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,589 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:15:20,663 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,664 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:15:20,664 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,664 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:15:20,792 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,793 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-25 14:15:20,793 [Worker-932] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-25 14:15:20,794 [Worker-932] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource

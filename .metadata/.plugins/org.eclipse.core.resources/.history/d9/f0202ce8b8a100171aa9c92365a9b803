@@ -1,0 +1,33 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+<!--   <groupId>com.xxxx.service</groupId> -->
+  <artifactId>xxxx-facade</artifactId>
+<!--   <version>1.0</version>
+   -->
+<!--   	<parent>
+		<groupId>com.xxxx.service</groupId>
+		<version>1.0</version>
+		<artifactId>xxxx-parent</artifactId>
+		<relativePath>../smart-parent</relativePath>
+	</parent> -->
+	
+    <parent>
+        <groupId>com.xxxx.service</groupId>
+        <artifactId>xxxx-dubbox</artifactId>
+        <version>1.0</version>
+        <relativePath>../xxxx-dubbox</relativePath>
+    </parent>
+  <build>
+     
+<resources>  
+            <resource>  
+                <directory>src/main/java</directory>  
+                <includes>  
+                    <include>**/*.properties</include> 
+                    <include>**/*.xml</include>  
+                </includes>  
+                <filtering>false</filtering>  
+            </resource>  
+        </resources>  
+  </build>
+</project>

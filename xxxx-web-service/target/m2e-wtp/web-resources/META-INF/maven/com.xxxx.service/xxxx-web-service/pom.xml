@@ -10,7 +10,7 @@
 		<groupId>com.xxxx.service</groupId>
 		<version>1.0</version>
 		<artifactId>xxxx-parent</artifactId>
-		<relativePath>../smart-parent</relativePath>
+		<relativePath>../xxxx-parent</relativePath>
 	</parent>
 	<properties>
 		<spring.version>4.1.9.RELEASE</spring.version>

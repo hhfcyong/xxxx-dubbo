@@ -6842,3 +6842,176 @@ java.lang.NullPointerException
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-09-25 14:07:14.192
+!MESSAGE properties loading for project 'xxxx-dubbox'
+
+!ENTRY org.eclipse.core.resources 2 2 2017-09-25 14:07:14.395
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-09-25 14:07:14.395
+!MESSAGE The project description file (.project) for 'RemoteSystemsTempFiles' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:45.227
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:45.251
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:53.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:53.132
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:54.180
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:11:54.181
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-09-25 14:12:21.966
+!MESSAGE Failed to read Maven project: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+ for project com.xxxx.service:xxxx-facade:[unknown-version] at /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml
+!STACK 0
+org.apache.maven.project.ProjectBuildingException: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+ for project com.xxxx.service:xxxx-facade:[unknown-version] at /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:168)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:119)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:636)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:815)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$5.call(ProjectRegistryManager.java:1)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:176)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.execute(ProjectRegistryManager.java:956)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:811)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.create(ProjectRegistryManager.java:191)
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectManager.create(MavenProjectManager.java:80)
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:259)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:729)
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1050)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems were encountered while building the effective model for com.xxxx.service:xxxx-facade:[unknown-version]
+[WARNING] 'parent.relativePath' of POM com.xxxx.service:xxxx-facade:[unknown-version] (/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml) points at com.xxxx.service:xxxx-parent instead of com.xxxx.service:xxxx-dubbox, please verify your project structure @ line 14, column 13
+[FATAL] Non-resolvable parent POM for com.xxxx.service:xxxx-facade:[unknown-version]: Failure to find com.xxxx.service:xxxx-dubbox:pom:1.0 in http://nexus.yonyou.com/nexus/content/groups/public/ was cached in the local repository, resolution will not be reattempted until the update interval of nexus has elapsed or updates are forced and 'parent.relativePath' points at wrong local POM @ line 14, column 13
+
+	at org.apache.maven.model.building.DefaultModelProblemCollector.newModelBuildingException(DefaultModelProblemCollector.java:197)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParentExternally(DefaultModelBuilder.java:1007)
+	at org.apache.maven.model.building.DefaultModelBuilder.readParent(DefaultModelBuilder.java:796)
+	at org.apache.maven.model.building.DefaultModelBuilder.build(DefaultModelBuilder.java:325)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:161)
+	... 15 more
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.237
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.312
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.314
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.440
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:33.441
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:34.748
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:34.750
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:50.786
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:50.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:59.427
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:59.428
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:12:59.440
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-09-25 14:12:59.453
+!MESSAGE properties loading for project 'xxxx-web-service'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-09-25 14:12:59.454
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY jp.gr.java_conf.ussiy.app.propedit 1 0 2017-09-25 14:12:59.454
+!MESSAGE loading file 'pom.properties'
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.030
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.030
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.126
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.129
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.415
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:14:25.416
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.719
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.720
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.720
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.720
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.720
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.720
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.jdt.core 4 1006 2017-09-25 14:14:25.721
+!MESSAGE /Users/zhangyong/.m2/repository/com/xxxx/service/xxxx-facade/1.0/xxxx-facade-1.0.jar is not on its project's build path
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.588
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.589
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.663
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.664
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.792
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-25 14:15:20.793
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.ui 4 0 2017-09-25 14:15:32.390
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
