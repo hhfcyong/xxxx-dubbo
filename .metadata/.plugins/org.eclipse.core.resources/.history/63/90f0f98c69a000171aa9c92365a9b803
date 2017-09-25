@@ -1,0 +1,14 @@
+package com.xxxx.repo.Impl;
+
+import com.xxxx.mybatis.domain.Enterprise;
+import com.xxxx.repo.IEnterpriseService;
+
+public class EnterpriseServiceImpl implements IEnterpriseService{
+
+	@Override
+	public Enterprise getEnterpriseById(int enterpriseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

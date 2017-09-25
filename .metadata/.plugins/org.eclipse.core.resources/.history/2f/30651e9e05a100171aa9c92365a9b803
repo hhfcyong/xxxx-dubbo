@@ -1,0 +1,5 @@
+package com.xxxx.restservice;
+
+public interface IEnterpriseRestService {
+
+}

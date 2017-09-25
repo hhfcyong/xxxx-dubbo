@@ -1,0 +1,25 @@
+package com.xxxx.repo.Impl;
+
+import javax.annotation.Resource;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Service;
+
+import com.xxxx.mybatis.IDao.EnterpriseMapper;
+import com.xxxx.mybatis.domain.Enterprise;
+import com.xxxx.repo.IEnterpriseService;
+
+
+@Service("enterpriseService")
+public class EnterpriseServiceImpl implements IEnterpriseService{
+	Logger  logger=Logger.getLogger(EnterpriseServiceImpl.class); 
+	@Resource
+	private  EnterpriseMapper enterpriseMapper;
+	
+	@Override
+	public Enterprise getEnterpriseById(int enterpriseId) {
+		logger.info("开始了");
+		return enterpriseMapper.selectByPrimaryKey(enterpriseId);
+	}
+
+}

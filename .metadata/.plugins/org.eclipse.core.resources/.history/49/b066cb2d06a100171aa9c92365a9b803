@@ -1,0 +1,19 @@
+package com.xxxx.restservice.impl;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.Path;
+
+import com.xxxx.mybatis.domain.Enterprise;
+import com.xxxx.restservice.IEnterpriseRestService;
+
+@Path("/enterprise")
+@Consumes({ MediaType.MULTIPART_FORM_DATA,MediaType.APPLICATION_FORM_URLENCODED})
+public class EnterpriseRestServiceImpl implements IEnterpriseRestService {
+
+	@Override
+	public Enterprise getEnterpriseById(int enterpriseId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
