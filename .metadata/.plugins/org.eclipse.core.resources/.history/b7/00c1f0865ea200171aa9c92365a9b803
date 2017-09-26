@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+        http://www.springframework.org/schema/beans/spring-beans.xsd  
+        http://code.alibabatech.com/schema/dubbo  
+        http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+	<dubbo:application name="xxxx-web" />
+	
+
+	
+	<dubbo:registry protocol="zookeeper" address="10.211.55.8:2181"/>
+    <!--***********讲解启动时检查**********-->
+    <!--Dubbo缺省会在启动时检查依赖的服务是否可用，不可用时会抛出异常，阻止Spring初始化完成，以便上线时，能及早发现问题，默认check="true"  -->
+    <!-- 不启动service服务，直接启动web，演示报错问题 -->
+    <!--  dubbo.properties可以直接配置：dubbo.reference.check=false 强制改变所有 reference 的 check 值，就算配置中有声明，也会被覆盖。 -->
+	<dubbo:reference interface="com.xxxx.repo.IEnterpriseService" id="enterpriseService" timeout="10000" check="true" />
+	
+</beans>  

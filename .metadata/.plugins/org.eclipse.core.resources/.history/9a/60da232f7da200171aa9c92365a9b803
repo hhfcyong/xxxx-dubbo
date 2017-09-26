@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans  
+            http://www.springframework.org/schema/beans/spring-beans.xsd  
+            http://code.alibabatech.com/schema/dubbo  
+            http://code.alibabatech.com/schema/dubbo/dubbo.xsd">  
+   
+   <!-- 只订阅 -->
+   <!--<dubbo:registry address="10.20.153.10:9090" register="false" /> -->
+   
+   <!-- ****************协议选择讲解***************************************** -->
+  <!--    <dubbo:protocol name="dubbo" port="20884" /> -->
+   
+   <!-- 只注册 -->
+   <!-- 如果有两个镜像环境，两个注册中心，有一个服务只在其中一个注册中心有部署，另一个注册中心还没来得及部署，
+   而两个注册中心的其它应用都需要依赖此服务。这个时候，可以让服务提供者方只注册服务到另一注册中心，而不从另一注册中心订阅服务。-->
+   <!-- <dubbo:registry id="hzRegistry" address="10.20.153.10:9090" />
+        <dubbo:registry id="qdRegistry" address="10.20.141.150:9090" subscribe="false" /> -->
+    <dubbo:service interface="com.xxxx.repo.IEnterpriseService" ref="enterpriseService"  protocol="dubbo"/>
+
+</beans>

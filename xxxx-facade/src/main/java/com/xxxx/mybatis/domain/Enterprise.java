@@ -1,15 +1,20 @@
 package com.xxxx.mybatis.domain;
 
+import org.codehaus.jackson.annotate.JsonProperty;
+
 public class Enterprise implements java.io.Serializable{
     /**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-
+	
+	@JsonProperty("enterprise_id")
 	private Integer id;
 
+	@JsonProperty("enterprise_name")
     private String name;
 
+	@JsonProperty("enterprise_address")
     private String address;
 
     public Integer getId() {

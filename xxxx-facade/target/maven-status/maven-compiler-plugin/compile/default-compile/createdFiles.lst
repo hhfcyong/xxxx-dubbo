@@ -1,4 +1,8 @@
 com/xxxx/restservice/IEnterpriseRestService.class
+com/xxxx/mybatis/domain/Product.class
+com/xxxx/mybatis/domain/Enterprise.class
 com/xxxx/mybatis/IDao/EnterpriseMapper.class
 com/xxxx/repo/IEnterpriseService.class
-com/xxxx/mybatis/domain/Enterprise.class
+com/xxxx/mybatis/IDao/ProductMapper.class
+com/xxxx/restservice/IProductRestService.class
+com/xxxx/repo/IProductService.class

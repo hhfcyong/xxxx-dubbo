@@ -1,0 +1,38 @@
+package com.xxxx.restservice.impl;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.springframework.stereotype.Service;
+
+import com.alibaba.dubbo.rpc.protocol.rest.support.ContentType;
+import com.xxxx.mybatis.domain.Product;
+import com.xxxx.restservice.IProductRestService;
+
+@Path("/product")
+@Consumes({MediaType.APPLICATION_JSON, MediaType.TEXT_XML})
+@Produces({ContentType.APPLICATION_JSON_UTF_8, ContentType.TEXT_XML_UTF_8})
+@Service("productRestService")
+public class ProductRestServiceImpl implements IProductRestService {
+
+	@Override
+	public Product getProductById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteProduct(int productId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

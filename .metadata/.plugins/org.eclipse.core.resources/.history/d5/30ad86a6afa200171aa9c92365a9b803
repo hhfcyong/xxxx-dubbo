@@ -1,0 +1,32 @@
+package com.xxxx.repo.Impl;
+
+import javax.annotation.Resource;
+
+import com.xxxx.mybatis.IDao.EnterpriseMapper;
+import com.xxxx.mybatis.domain.Product;
+import com.xxxx.repo.IProductService;
+
+public class ProductServiceImpl implements IProductService {
+  
+	@Resource
+	EnterpriseMapper enterpriseMapper;
+	
+	@Override
+	public Product getProductById(int productId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void insertProduct(Product product) {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void deleteProduct(int productId) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
