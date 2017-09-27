@@ -4663,3 +4663,101 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems we
 2017-09-27 14:46:45,767 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
 2017-09-27 14:46:45,768 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
 2017-09-27 14:46:45,769 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:36:43,416 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: xxxx.service.com:xxxx-config:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/pom.xml.
+2017-09-27 15:36:43,534 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /xxxx-config/src/main/java
+2017-09-27 15:36:43,534 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /xxxx-config/src/main/resources
+2017-09-27 15:36:43,535 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /xxxx-config/src/test/java
+2017-09-27 15:36:43,535 [Worker-15] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /xxxx-config/src/test/resources
+2017-09-27 15:36:44,155 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:36:44,155 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:36:44,156 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:36:44,157 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:37:46,112 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: xxxx.service.com:xxxx-config:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/pom.xml.
+2017-09-27 15:37:46,163 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:37:46,164 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:46,170 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:37:46,170 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/src/main/resources/dev
+2017-09-27 15:37:46,170 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:46,171 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:37:47,291 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:37:47,291 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:47,293 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:37:47,294 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/src/main/resources/dev
+2017-09-27 15:37:47,294 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:47,295 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:37:58,028 [Worker-15] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: xxxx.service.com:xxxx-config:1.0 @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/pom.xml.
+2017-09-27 15:37:58,059 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:37:58,060 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:58,060 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:37:58,060 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/src/main/resources/dev
+2017-09-27 15:37:58,062 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:37:58,063 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:38:44,171 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:38:44,172 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:38:44,174 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:38:44,174 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:38:44,175 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:38:44,175 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:38:54,932 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:38:54,933 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:38:54,933 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:38:54,933 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:38:54,934 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:38:54,934 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:39:00,189 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:39:00,190 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:00,190 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:00,190 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:00,191 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:00,191 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:39:03,896 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:39:03,897 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:03,897 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:03,897 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:03,898 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:03,898 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:39:09,423 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:39:09,423 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:09,425 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:09,425 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:09,432 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:09,432 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:39:10,442 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:39:10,443 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:10,443 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:10,443 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:10,444 [Worker-15] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:10,444 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:39:11,455 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:39:11,456 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:11,458 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:11,458 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:39:11,459 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:39:11,460 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:40:18,715 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:40:18,715 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:18,716 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:18,716 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:18,719 [Worker-34] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:18,719 [Worker-34] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:40:35,164 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:40:35,164 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:35,164 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:35,165 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:35,165 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:35,166 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:40:40,864 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:40:40,865 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:40,866 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:40,867 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:40,868 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:40,868 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:40:55,762 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 15:40:55,762 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:55,763 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:55,763 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config/target/classes
+2017-09-27 15:40:55,763 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 15:40:55,764 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 15:41:31,793 [JavaFX Application Thread] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 15:41:34,567 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-config
+2017-09-27 15:41:34,568 [Worker-34] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
