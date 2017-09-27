@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <publish-info>
+  <server id="Tomcat v7.0 Server at localhost (2)" path="publish1.dat"/>
   <server id="Tomcat v7.0 Server at localhost" path="publish0.dat"/>
 </publish-info>

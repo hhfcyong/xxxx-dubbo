@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.xxxx.service"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="xxxx-dubbox"/>
+			<item value="xxxx-web-service"/>
+			<item value="xxxx-service"/>
+			<item value="xxxx-facade"/>
+			<item value="xxxx-parent"/>
+			<item value="xxxx-sdk"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+			<item value="1.0"/>
+			<item value="1.0-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-web-service/src/main/java/com/xxxx/restservice/impl/EnterpriseRestServiceImpl.java"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-parent"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service/pom.xml"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/pom.xml"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-parent/pom.xml"/>
+			<item value="/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/springmvc"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

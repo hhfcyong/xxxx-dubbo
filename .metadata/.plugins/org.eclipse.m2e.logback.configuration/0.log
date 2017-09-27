@@ -4241,3 +4241,425 @@ Caused by: org.apache.maven.model.building.ModelBuildingException: 2 problems we
 2017-09-26 20:50:32,308 [Worker-1385] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2017-09-26 20:56:03,418 [Worker-1390] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-service
 2017-09-26 20:56:03,419 [Worker-1390] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests -P test
+2017-09-27 13:57:36,672 [Worker-1623] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ldap.service:ldap-common-parent:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent/pom.xml.
+2017-09-27 13:57:36,789 [Worker-1623] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-09-27 13:57:51,493 [Worker-1384] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-common-config:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/pom.xml.
+2017-09-27 13:57:51,696 [Worker-1384] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-common-config/src/main/java
+2017-09-27 13:57:51,696 [Worker-1384] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-common-config/src/main/resources
+2017-09-27 13:57:51,697 [Worker-1384] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /ldap-common-config/src/main/resources/development overlaps with sources folder /ldap-common-config/src/main/resources
+2017-09-27 13:57:51,697 [Worker-1384] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-common-config/src/test/java
+2017-09-27 13:57:51,757 [Worker-1384] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-09-27 13:57:52,131 [Worker-1622] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:57:52,133 [Worker-1622] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 13:57:52,133 [Worker-1622] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 13:57:52,206 [Worker-1622] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:57:52,207 [Worker-1622] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 13:58:03,615 [Worker-1623] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 13:58:03,806 [Worker-1623] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-facade/src/main/java
+2017-09-27 13:58:03,806 [Worker-1623] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-facade/src/main/resources
+2017-09-27 13:58:03,806 [Worker-1623] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-facade/src/test/java
+2017-09-27 13:58:03,806 [Worker-1623] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-facade/src/test/resources
+2017-09-27 13:58:04,098 [Worker-1623] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-09-27 13:58:04,705 [Worker-1384] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:04,705 [Worker-1384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 13:58:04,706 [Worker-1384] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:04,706 [Worker-1384] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 13:58:13,187 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 13:58:13,361 [Worker-1381] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/main/java
+2017-09-27 13:58:13,362 [Worker-1381] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/main/resources
+2017-09-27 13:58:13,362 [Worker-1381] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/test/java
+2017-09-27 13:58:13,362 [Worker-1381] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/test/resources
+2017-09-27 13:58:13,399 [Worker-1381] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 0 sec
+2017-09-27 13:58:13,984 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:13,984 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 13:58:13,988 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:13,988 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 13:58:27,528 [Worker-1622] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 13:58:28,001 [Worker-1622] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://nexus.yonyou.com/nexus/content/groups/public/com/sun/xml/bind/jaxb-impl/2.1.13/jaxb-impl-2.1.13.pom
+2017-09-27 13:58:36,641 [Worker-1622] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.1.13/jaxb-impl-2.1.13.pom
+2017-09-27 13:58:37,153 [Worker-1622] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/sun/xml/bind/jaxb-impl/2.1.13/jaxb-impl-2.1.13.pom
+2017-09-27 13:58:38,001 [Worker-1622] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/main/java
+2017-09-27 13:58:38,001 [Worker-1622] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/main/resources
+2017-09-27 13:58:38,001 [Worker-1622] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/test/java
+2017-09-27 13:58:38,001 [Worker-1622] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/test/resources
+2017-09-27 13:58:38,441 [Worker-1622] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2017-09-27 13:58:38,861 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:38,862 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 13:58:38,868 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:38,868 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 13:58:38,868 [Worker-1624] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 13:58:38,872 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-09-27 13:58:38,872 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:00:17,725 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ldap.service:ldap-common-parent:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent/pom.xml.
+2017-09-27 14:00:17,892 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-common-config:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/pom.xml.
+2017-09-27 14:00:17,906 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 14:00:17,972 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:00:18,030 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:00:18,902 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:18,904 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:00:18,905 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:18,906 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:00:19,215 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,216 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:00:19,226 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,226 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:00:19,403 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:00:19,404 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,405 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:00:19,405 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:00:19,406 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,407 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:00:19,610 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,610 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:00:19,612 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:00:19,613 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:02:01,569 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 14:02:29,786 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config
+2017-09-27 14:02:29,787 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-27 14:05:15,650 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ldap.service:ldap-common-parent:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent/pom.xml.
+2017-09-27 14:05:15,793 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:05:15,892 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:05:16,060 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 14:05:16,084 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-common-config:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/pom.xml.
+2017-09-27 14:05:16,766 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:16,768 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:16,770 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:16,770 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:16,871 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:16,872 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:16,872 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:16,874 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:17,053 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:17,053 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:17,054 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:17,055 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:05:18,105 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:05:18,105 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:18,105 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:05:18,105 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:05:18,106 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:05:18,106 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:05:22,590 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 14:05:48,156 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent
+2017-09-27 14:05:48,158 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-27 14:05:59,902 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-09-27 14:06:00,228 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config
+2017-09-27 14:06:00,228 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-27 14:06:47,123 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:06:47,123 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:47,124 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:47,124 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:47,131 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:47,132 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:06:48,146 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:06:48,147 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:48,147 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:48,147 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:48,148 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:48,149 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:06:53,611 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:06:53,611 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:53,613 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:53,613 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:53,614 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:53,614 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:06:56,995 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:06:56,995 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:56,996 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:56,996 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:06:56,998 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:06:56,998 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:07:04,644 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-09-27 14:07:04,961 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config
+2017-09-27 14:07:04,961 [Worker-1626] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-27 14:07:14,228 [Worker-1629] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:07:14,260 [Worker-1629] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-common-config:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/pom.xml.
+2017-09-27 14:07:14,424 [Worker-1629] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-common-config/src/main/java
+2017-09-27 14:07:14,424 [Worker-1629] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-common-config/src/main/resources
+2017-09-27 14:07:14,425 [Worker-1629] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /ldap-common-config/src/main/resources/development overlaps with sources folder /ldap-common-config/src/main/resources
+2017-09-27 14:07:14,426 [Worker-1629] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-common-config/src/test/java
+2017-09-27 14:07:14,512 [Worker-1629] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-27 14:07:14,637 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:07:14,637 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:07:14,637 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:07:14,637 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:07:14,638 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:07:14,639 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:07:43,229 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 14:08:08,407 [Worker-1625] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade
+2017-09-27 14:08:08,409 [Worker-1625] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests=true
+2017-09-27 14:08:19,319 [Worker-1625] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:08:19,349 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 14:08:19,445 [Worker-1625] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-facade/src/main/java
+2017-09-27 14:08:19,446 [Worker-1625] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-facade/src/main/resources
+2017-09-27 14:08:19,447 [Worker-1625] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-facade/src/test/java
+2017-09-27 14:08:19,447 [Worker-1625] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-facade/src/test/resources
+2017-09-27 14:08:19,569 [Worker-1625] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-27 14:08:19,870 [Worker-1626] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:08:19,871 [Worker-1626] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:08:19,871 [Worker-1626] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:08:19,872 [Worker-1626] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:09:42,346 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:09:42,347 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:09:42,347 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:09:42,348 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:09:57,104 [Worker-1630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:09:57,104 [Worker-1630] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:09:57,105 [Worker-1630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:09:57,106 [Worker-1630] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:10:34,767 [Worker-1629] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:10:34,911 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:10:34,912 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:10:34,912 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:10:34,912 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:11:20,164 [Worker-1630] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:11:20,256 [Worker-1630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:11:20,256 [Worker-1630] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:11:20,256 [Worker-1630] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:11:20,257 [Worker-1630] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:12:36,624 [Worker-1629] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:12:36,708 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:12:36,708 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:12:36,708 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:12:36,709 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:13:14,341 [Worker-1628] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:13:14,378 [Worker-1628] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:13:14,478 [Worker-1628] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/main/java
+2017-09-27 14:13:14,479 [Worker-1628] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/main/resources
+2017-09-27 14:13:14,480 [Worker-1628] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/test/java
+2017-09-27 14:13:14,480 [Worker-1628] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/test/resources
+2017-09-27 14:13:14,587 [Worker-1628] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-27 14:13:14,866 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:13:14,866 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:13:14,869 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:13:14,869 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:13:57,750 [Worker-1625] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:13:57,880 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:13:57,881 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:13:57,881 [Worker-1625] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:13:57,881 [Worker-1625] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:15:24,713 [Worker-1628] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:15:24,831 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:24,832 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:15:24,832 [Worker-1628] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:24,833 [Worker-1628] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:15:26,094 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:26,094 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:15:26,096 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:26,097 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:15:30,247 [Worker-1632] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:15:30,340 [Worker-1632] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:30,340 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:15:30,340 [Worker-1632] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:15:30,341 [Worker-1632] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:15:37,321 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 14:15:52,588 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service
+2017-09-27 14:15:52,588 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests=true
+2017-09-27 14:17:38,636 [Worker-1624] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:17:39,310 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:17:39,310 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:17:39,311 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:17:39,311 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:17:39,311 [Worker-1624] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:17:39,311 [Worker-1624] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:17:39,315 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:17:39,315 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:17:39,316 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:19:28,664 [Worker-1381] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:19:28,676 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.aspectj:aspectjweaver:jar:1.5.3 is missing, no dependency information available
+2017-09-27 14:19:28,830 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.aspectj:aspectjweaver:jar:1.5.3 is missing, no dependency information available
+2017-09-27 14:19:29,312 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:19:29,313 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:19:29,314 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:19:29,319 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:19:29,319 [Worker-1381] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:19:29,320 [Worker-1381] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:19:29,322 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:19:29,322 [Worker-1381] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:19:29,323 [Worker-1381] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:19:29,758 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.aspectj:aspectjweaver:jar:1.5.3 is missing, no dependency information available
+2017-09-27 14:19:29,908 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.aspectj:aspectjweaver:jar:1.5.3 is missing, no dependency information available
+2017-09-27 14:20:50,563 [Worker-1629] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:20:51,108 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:20:51,108 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:20:51,109 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:20:51,109 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:20:51,109 [Worker-1629] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:20:51,109 [Worker-1629] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:20:51,111 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:20:51,112 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:20:51,112 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:20:52,332 [Worker-1633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:20:52,333 [Worker-1633] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:20:52,339 [Worker-1633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:20:52,339 [Worker-1633] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:21:33,921 [Worker-1636] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.ldap.service:ldap-common-parent:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent/pom.xml.
+2017-09-27 14:21:34,119 [Worker-1636] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-common-config:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/pom.xml.
+2017-09-27 14:21:34,129 [Worker-1636] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 14:21:34,148 [Worker-1636] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:21:34,152 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:21:34,260 [Worker-1636] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:21:34,350 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:21:35,190 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:21:35,355 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,359 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:21:35,374 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,375 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:21:35,418 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:21:35,548 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,549 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:21:35,554 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,554 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:21:35,701 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:21:35,768 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:21:35,769 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,769 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:21:35,769 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource to /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/target/classes
+2017-09-27 14:21:35,770 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,770 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-config/src/test/resources
+2017-09-27 14:21:35,827 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,828 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:21:35,828 [Worker-1629] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:21:35,829 [Worker-1629] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:21:37,976 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-09-27 14:22:36,413 [Worker-1634] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-common-parent
+2017-09-27 14:22:36,414 [Worker-1634] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests
+2017-09-27 14:23:12,704 [Worker-1639] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:23:12,734 [Worker-1639] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:23:12,735 [Worker-1639] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:23:12,924 [Worker-1639] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:23:13,404 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/main/java
+2017-09-27 14:23:13,404 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/main/resources
+2017-09-27 14:23:13,406 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/test/java
+2017-09-27 14:23:13,406 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/test/resources
+2017-09-27 14:23:13,424 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:23:13,504 [Worker-1639] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:23:13,573 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:23:13,812 [Worker-1639] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ldap-web
+2017-09-27 14:23:13,817 [Worker-1639] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-09-27 14:24:05,782 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:24:05,783 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:24:05,786 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:24:05,786 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:24:05,788 [Worker-1636] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:24:05,788 [Worker-1636] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:24:05,790 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:24:05,790 [Worker-1636] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:24:05,791 [Worker-1636] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:25:08,055 [Worker-1640] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:08,056 [Worker-1640] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:25:08,057 [Worker-1640] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:08,057 [Worker-1640] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:25:23,898 [Worker-1633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:23,899 [Worker-1633] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:25:23,900 [Worker-1633] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:23,900 [Worker-1633] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:25:34,892 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:34,893 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:25:34,895 [Worker-1624] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:25:34,895 [Worker-1624] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:26:19,157 [main] INFO  o.e.m2e.actions.ExecutePomAction - Creating new launch configuration
+2017-09-27 14:26:34,112 [Worker-1643] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web
+2017-09-27 14:26:34,112 [Worker-1643] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests=true
+2017-09-27 14:26:45,842 [Worker-1634] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:26:45,881 [Worker-1634] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:26:45,883 [Worker-1634] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:26:46,045 [Worker-1634] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:26:46,487 [Worker-1634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/main/java
+2017-09-27 14:26:46,487 [Worker-1634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/main/resources
+2017-09-27 14:26:46,488 [Worker-1634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/test/java
+2017-09-27 14:26:46,488 [Worker-1634] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/test/resources
+2017-09-27 14:26:46,527 [Worker-1646] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:26:46,550 [Worker-1634] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:26:46,722 [Worker-1646] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.ldap.service:ldap-facade:jar:1.0-SNAPSHOT is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2017-09-27 14:26:47,134 [Worker-1634] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ldap-web
+2017-09-27 14:26:47,136 [Worker-1634] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-09-27 14:27:47,396 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:27:47,397 [Worker-1638] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:27:47,401 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:27:47,401 [Worker-1638] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:27:47,402 [Worker-1638] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:27:47,402 [Worker-1638] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:27:47,404 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:27:47,404 [Worker-1638] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:27:47,404 [Worker-1638] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:30:16,234 [Worker-1637] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-facade:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade/pom.xml.
+2017-09-27 14:30:16,267 [Worker-1637] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:30:16,269 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:30:16,269 [Worker-1637] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:30:16,269 [Worker-1637] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:30:23,728 [main] INFO  o.e.m2e.actions.ExecutePomAction - Using existing launch configuration
+2017-09-27 14:30:24,230 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate - /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-facade
+2017-09-27 14:30:24,230 [Worker-1629] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -s /Users/zhangyong/Documents/workspace/yonyouworkspace/settings_demo.xml clean install -DskipTests=true
+2017-09-27 14:31:28,177 [Worker-1639] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:31:28,205 [Worker-1639] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-web:0.0.1-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-web/pom.xml.
+2017-09-27 14:31:28,907 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/main/java
+2017-09-27 14:31:28,908 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/main/resources
+2017-09-27 14:31:28,908 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-web/src/test/java
+2017-09-27 14:31:28,908 [Worker-1639] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-web/src/test/resources
+2017-09-27 14:31:29,212 [Worker-1639] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for ldap-web
+2017-09-27 14:31:29,215 [Worker-1639] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2017-09-27 14:32:29,486 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:32:29,487 [Worker-1655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:32:29,487 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:32:29,488 [Worker-1655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:32:29,498 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:32:29,498 [Worker-1655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:32:29,500 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:32:29,501 [Worker-1655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:32:29,503 [Worker-1655] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of ldap-web
+2017-09-27 14:32:29,503 [Worker-1655] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for ldap-web
+2017-09-27 14:32:29,505 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+2017-09-27 14:32:29,506 [Worker-1655] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:32:29,506 [Worker-1655] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource to WEB-INF
+2017-09-27 14:34:44,317 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:34:44,318 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:34:44,318 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:34:44,319 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:34:53,720 [Worker-1650] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:34:53,721 [Worker-1650] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:34:53,722 [Worker-1650] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:34:53,723 [Worker-1650] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:37:17,697 [Worker-1647] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-09-27 14:37:17,734 [Worker-1647] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:37:17,855 [Worker-1647] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/main/java
+2017-09-27 14:37:17,855 [Worker-1647] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/main/resources
+2017-09-27 14:37:17,855 [Worker-1647] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ldap-service/src/test/java
+2017-09-27 14:37:17,855 [Worker-1647] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ldap-service/src/test/resources
+2017-09-27 14:37:17,972 [Worker-1647] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-09-27 14:37:18,281 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:37:18,281 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:37:18,283 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:37:18,283 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:42:18,173 [Worker-1647] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:42:18,368 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:18,369 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:42:18,370 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:18,371 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:42:19,624 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:19,626 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2017-09-27 14:42:19,627 [Worker-1647] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:19,629 [Worker-1647] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2017-09-27 14:42:26,774 [Worker-1666] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.ldap.service:ldap-service:1.0-SNAPSHOT @ /Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/ldap-service/pom.xml.
+2017-09-27 14:42:26,883 [Worker-1666] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:26,884 [Worker-1666] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:42:26,884 [Worker-1666] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:42:26,885 [Worker-1666] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:46:09,125 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@15e65622{HTTP/1.1}{127.0.0.1:0}
+2017-09-27 14:46:09,155 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@7fbded1f{/help,null,UNAVAILABLE}
+2017-09-27 14:46:37,767 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:37,798 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2017-09-27 14:46:37,808 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:37,808 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:46:45,322 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,323 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:46:45,324 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,325 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:46:45,586 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,588 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2017-09-27 14:46:45,589 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,590 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2017-09-27 14:46:45,766 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,767 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2017-09-27 14:46:45,768 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2017-09-27 14:46:45,769 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
