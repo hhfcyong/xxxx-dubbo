@@ -19,6 +19,7 @@
     <dubbo:service interface="com.xxxx.repo.IEnterpriseService" ref="enterpriseService"  protocol="dubbo"/>
     <dubbo:service interface="com.xxxx.repo.IProductService" ref="productService"  protocol="dubbo"/>
     <dubbo:service interface="com.xxxx.repo.IEnterpriseMongoService" ref="enterpriseMongoService"  protocol="dubbo"/>
+    <dubbo:service interface="com.xxxx.repo.IProductMongoService" ref="productMongoService"  protocol="dubbo"/>
 
  <!-- ****************协议选择讲解***************************************** -->
  

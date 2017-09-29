@@ -36,6 +36,7 @@
 	<dubbo:reference interface="com.xxxx.repo.IEnterpriseService" id="enterpriseService" timeout="10000" check="false"  cluster="failover" retries="2" loadbalance="random"/>
     <dubbo:reference interface="com.xxxx.repo.IProductService" id="productService" timeout="10000" check="false"  cluster="failover" retries="2" loadbalance="random"/>
     <dubbo:reference interface="com.xxxx.repo.IEnterpriseMongoService" id="enterpriseMongoService" timeout="10000" check="false"  cluster="failover" retries="2" loadbalance="random"/>
+	    <dubbo:reference interface="com.xxxx.repo.IProductMongoService" id="productMongoService" timeout="10000" check="false"  cluster="failover" retries="2" loadbalance="random"/>
 	
 	<!--*********** 配置直连**************** -->
 	<!-- 在开发及测试环境下，经常需要绕过注册中心，只测试指定服 务提供者，这时候可能需要点对点直连，点对点直联方式，

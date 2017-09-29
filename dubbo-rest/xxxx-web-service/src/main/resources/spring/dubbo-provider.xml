@@ -24,5 +24,6 @@
     <dubbo:service interface="com.xxxx.restservice.IEnterpriseRestService"  ref="enterpriseRestService"  protocol="rest" validation="true"/>
         <dubbo:service interface="com.xxxx.restservice.IProductRestService"  ref="productRestService"  protocol="rest" validation="true"/>
         <dubbo:service interface="com.xxxx.restservice.IEnterpriseMongoRestService"  ref="enterpriseMongoRestService"  protocol="rest" validation="true"/>
+            <dubbo:service interface="com.xxxx.restservice.IProductMongoRestService"  ref="productMongoRestService"  protocol="rest" validation="true"/>
     
 </beans>
