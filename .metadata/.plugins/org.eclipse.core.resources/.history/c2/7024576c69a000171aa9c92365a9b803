@@ -1,5 +1,0 @@
-package com.xxxx.repo.Impl;
-
-public class EnterpriseServiceImpl implements IEnterpriseService{
-
-}

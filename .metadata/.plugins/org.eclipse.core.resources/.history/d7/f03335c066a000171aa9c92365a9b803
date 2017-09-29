@@ -1,4 +1,0 @@
-driver=com.mysql.jdbc.Driver
-url=jdbc:mysql://10.211.55.8:3306/bigdata
-username=root
-password=bigdata

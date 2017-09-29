@@ -1,9 +1,0 @@
-package com.xxxx.restservice;
-
-import com.xxxx.mybatis.domain.Enterprise;
-
-public interface IEnterpriseRestService {
-	  public Enterprise getEnterpriseById();
-	  public void insertEnterprise();
-	  public String getString(String name);
-}

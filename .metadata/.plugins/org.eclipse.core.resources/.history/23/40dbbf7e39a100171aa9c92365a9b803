@@ -1,6 +1,0 @@
-package snippet;
-
-public class Snippet {
-	org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.xxxx.mybatis.IDao.EnterpriseMapper.selectByPrimaryKey
-}
-

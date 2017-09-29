@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="xxxx-service"/>
-<aop-project name="xxxx-web-service"/>
-<aop-project name="ldap-facade"/>
-<aop-project name="ldap-service"/>
-<aop-project name="ldap-web"/>
-</aop-reference-model>

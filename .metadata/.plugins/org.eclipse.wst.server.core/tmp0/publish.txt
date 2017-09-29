@@ -1,4 +1,0 @@
-#Tomcat publish data
-#Tue Sep 26 20:50:33 CST 2017
-org.eclipse.jst.j2ee.server\:xxxx-facade=WEB-INF/lib/xxxx-facade-1.0.jar
-org.eclipse.jst.jee.server\:/binary\:/Users/zhangyong/.m2/repository/org/springframework/spring-web/4.1.9.RELEASE/spring-web-4.1.9.RELEASE.jar=WEB-INF/lib/spring-web-4.1.9.RELEASE.jar
