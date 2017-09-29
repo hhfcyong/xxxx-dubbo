@@ -12,11 +12,11 @@
     <context:component-scan base-package="com.xxxx" />  
     
      <!-- 引入配置文件 -->  
-    <bean id="propertyConfigurer"  
+ <!--    <bean id="propertyConfigurer"  
         class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">  
         <property name="location" value="classpath:jdbc.properties" />  
-    </bean>  
-  
+    </bean>   -->
+  	<context:property-placeholder location="classpath:jdbc.properties" ignore-unresolvable="true"/>
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"  
         destroy-method="close">  
         <property name="driverClassName" value="${driver}" />  
