@@ -1,8 +1,0 @@
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/restservice/IProductRestService.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/mybatis/domain/Enterprise.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/repo/IEnterpriseService.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/mybatis/IDao/EnterpriseMapper.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/repo/IProductService.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/mybatis/domain/Product.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/mybatis/IDao/ProductMapper.java
-/Users/zhangyong/Documents/data/从无到有搭建后台服务架构/coding/xxxx-facade/src/main/java/com/xxxx/restservice/IEnterpriseRestService.java
