@@ -19,6 +19,20 @@
      这里对这几种方式介绍很详细：http://www.ruanyifeng.com/blog/2014/05/oauth_2_0.html
      本课程主要是针对client_credentials模式讲解，其实封装的这个jar只几种都支持，大家根据自己的理解去改一下即可。对于password这种模式已经
      测试过了，是没有问题的，并且相应代码都已经写好，目前只是没有开启。
+     
+     获取token方式：用post请求。
+     访问：127.0.0.1:8080/xxxx-web-service/oauth/token?client_id=client&grant_type=client_credentials&client_secret=bigdata
+     其中 client_id、grant_type、client_secret都是我们预前在数据表oauth_client_details表中设置正确。
+     访问获得的json为：
+     {
+    "access_token": "a772db9b-d938-400b-96ac-77f33b254fc0",
+    "token_type": "bearer",
+    "expires_in": 12424,
+    "scope": "read write"
+      }
+      
+    通过获取的access_token来访问接口，访问方式为：
+    http://127.0.0.1:8080/xxxx-web-service/getenterprise/17?access_token=a772db9b-d938-400b-96ac-77f33b254fc0
     -->
    
   <http pattern="/oauth/token" create-session="stateless"
