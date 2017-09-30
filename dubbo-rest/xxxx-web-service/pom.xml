@@ -31,6 +31,11 @@
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
 		</dependency>
+		<dependency>
+			<groupId>com.xxxx.service</groupId>
+			<artifactId>xxxx-oauth</artifactId>
+			<version>1.0</version>
+		</dependency>
 		<!-- <dependency> <groupId>com.xxxx.service</groupId> <artifactId>xxxx-service</artifactId> 
 			<version>1.0</version> </dependency> -->
 
@@ -93,7 +98,21 @@
 			<artifactId>spring-test</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
-
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-expression</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
 		<!-- 映入JSON -->
 		<dependency>
 			<groupId>org.codehaus.jackson</groupId>
@@ -225,10 +244,10 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.3.3</version>
 		</dependency>
-       <dependency>
+		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
-			<version>4.2.0.Final</version>
+			<version>5.1.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>org.mortbay.jetty</groupId>
@@ -241,9 +260,14 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>2.0.0.Alpha1</version>
+		</dependency>
 	</dependencies>
-	
-	
+
+
 	<profiles>
 		<profile>
 			<id>dev</id>
