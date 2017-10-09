@@ -8,6 +8,9 @@
         <dependent-module archiveName="xxxx-facade-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/xxxx-facade/xxxx-facade">
             <dependency-type>uses</dependency-type>
         </dependent-module>
+        <dependent-module archiveName="xxxx-oauth-1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/xxxx-oauth/xxxx-oauth">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
         <property name="context-root" value="xxxx-web-service"/>
         <property name="java-output-path" value="/xxxx-web-service/target/classes"/>
     </wb-module>
