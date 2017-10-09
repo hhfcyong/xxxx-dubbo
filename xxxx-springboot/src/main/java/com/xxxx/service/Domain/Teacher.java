@@ -1,13 +1,26 @@
 package com.xxxx.service.Domain;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
 /**
- * jdbc访问mysql
+ * spring-data-jpa访问mysql
  * @author zhangyong
  *
  */
-public class User {
+@Entity
+public class Teacher {
+
+	@Id
+	@GeneratedValue
 	private Integer id;
+
+	@Column(nullable = false)
 	private String name;
+
+	@Column(nullable = false)
 	private Integer age;
 
 	public Integer getId() {
