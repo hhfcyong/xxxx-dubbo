@@ -12,6 +12,8 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.cache.CacheManager;
+import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
@@ -77,6 +79,7 @@ public class ApplicationTests {
 	@Autowired
 	 private AsyncTask asyncTask;
 	
+
 	@Test
 	public void contextLoads() throws InterruptedException, ExecutionException {
 		//测试多环境配置
@@ -87,11 +90,16 @@ public class ApplicationTests {
 		//userServiceRepo.deleteByName("3333");
 		
 		//测试spring-data-jpa(并且测试多数据源连接)
-//		Teacher1 teacher=new Teacher1();
-//		teacher.setName("事务处理1");
-//		teacher.setAge(33);
-//		//结合演示事务
-//		teacherServiceRepo.createTeacher(teacher);
+		Teacher1 teacher=new Teacher1();
+		teacher.setName("事务处理1");
+		teacher.setAge(33);
+		//结合演示事务
+		teacherServiceRepo.createTeacher(teacher);
+		//为了测试EhCache缓存，进行两次查询
+		 List<Teacher1> teacher1=teacherServiceRepo.findByName("广州");
+		System.out.println("第一次查询为："+teacher1.size());
+		 List<Teacher1> teacher11=teacherServiceRepo.findByName("广州");
+		System.out.println("第二次查询为："+teacher11.size());
 		
 //		List<Teacher> teachers=teacherServiceRepo.getTeacher();
 //		for(int i=0;i<teachers.size();i++){
@@ -152,11 +160,11 @@ public class ApplicationTests {
 		
 		
 		//测试mongodb
-		User2 user2=new User2();
-		user2.setId(7);
-		user2.setName("mongodb2");
-		user2.setAge(30);
-		user2Repository.save(user2);
+//		User2 user2=new User2();
+//		user2.setId(7);
+//		user2.setName("mongodb2");
+//		user2.setAge(30);
+//		user2Repository.save(user2);
 //		User2 user2findone=user2Repository.findOne(1);
 //		System.out.println(user2findone.getId()+"   "+user2findone.getName()+"   "+user2findone.getAge());
 //		
