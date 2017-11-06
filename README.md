@@ -6,3 +6,4 @@
 4、xxxx-oauth为token验证封装jar
 5、xxxx-springboot 和xxxx-springboot1为springboot应用
 6、springboot-dubbo-consumer和springboot-dubbo-provider为spring boot结合dubbo项目
+7、falcon-mail和mail-provider为报警邮件发送代码
