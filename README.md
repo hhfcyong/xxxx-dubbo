@@ -5,3 +5,4 @@
 3、ldap开头的为统一用户中心
 4、xxxx-oauth为token验证封装jar
 5、xxxx-springboot 和xxxx-springboot1为springboot应用
+6、springboot-dubbo-consumer和springboot-dubbo-provider为spring boot结合dubbo项目
