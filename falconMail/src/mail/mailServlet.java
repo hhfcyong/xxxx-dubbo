@@ -69,12 +69,12 @@ public class mailServlet extends HttpServlet {
 			String[] sourcetos = tos.split(",");
 			// 这个类主要是设置邮件
 			MailSenderInfo mailInfo = new MailSenderInfo();
-			mailInfo.setMailServerHost("邮箱地址");
+			mailInfo.setMailServerHost("mail.yonyou.com");
 			mailInfo.setMailServerPort("25");
 			mailInfo.setValidate(true);
-			mailInfo.setUserName("邮箱账号");
-			mailInfo.setPassword("密码");// 您的邮箱密码
-			mailInfo.setFromAddress("发送邮箱账号");
+			mailInfo.setUserName("zhangyongw");
+			mailInfo.setPassword("upgs2014");// 您的邮箱密码
+			mailInfo.setFromAddress("zhangyongw@yonyou.com");
 			for (int i = 0; i < sourcetos.length; i++) {
 				mailInfo.setToAddress(sourcetos[i]);
 				mailInfo.setSubject(subject);
